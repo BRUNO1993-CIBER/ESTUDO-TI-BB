@@ -1,0 +1,75 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Logs e arquivos temporários
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Configurações sensíveis
+# =========================
+.env
+.env.*
+*.secret
+config.local.py
+
+# =========================
+# Cache de ferramentas
+# =========================
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# =========================
+# IDEs e editores
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Sistema operacional
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / distribuição
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Banco de dados local
+# =========================
+data/*.db
+data/backups/
+data/backups/*
+
+# =========================
+# Arquivos de upload ou mídia local
+# =========================
+uploads/
+media/
+static/uploads/
+
+# =========================
+# Docker
+# =========================
+*.pid
